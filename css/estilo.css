@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2? family= Comfortaa:wght@400;700 & display=swap');
+
+
+/*Configurações dos navegadores*/
+*{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Configurações das cores do site*/
+:root{
+    --cor1: #fff;
+    --cor2: #000;
+    --cor3: #00ef87;
+
+}
+
+/*Formatação do body*/
+body{
+    background-color: var(--cor2);
+}
+
+/*Formatações da nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 7%;
+}
+
+.menu{
+    padding: 2.5%;
+}
+
+.menu li{
+    display: inline;
+    margin: 0 30px;
+}
+
+.menu a{
+    color:var(--cor1);
+    transition: 1s;
+}
+
+.menu a:hover{
+    color:var(--cor3);
+}
+
+/*Formação sessão poker*/
+.poker{
+    height: 100vh;
+    background-image: url(../img/b_poker.jpg);
+    background-size: cover;
+}
+
+.poker h2, .pub h2{
+    font-size: 3rem;
+    color: var(--cor1);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20%;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+
+.poker p, .pub p{
+    font-size: 2rem;
+    color: var(--cor1);
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#voltar, #voltar1{
+    float:right;
+    padding: 13% 5%;
+
+}
+
+/*Formação da sessão pub*/
+.pub{
+    height: 100vh;
+    background-image: url(../img/b_pub.jpg);
+    background-size: cover;
+
+}
+
+/*Formação da sessão reservas*/
+.reserva{
+    width: 60%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/cropie.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+form input{
+    margin: 2% 80%;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid var(--cor3);
+}
+
+button{
+    height: 40px;
+    background-color: var(--cor3);
+    color:var(--cor2);
+    padding: 10px;
+    margin: 2% 115%;
+    font-weight: 700;
+}
