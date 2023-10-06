@@ -5,13 +5,19 @@ um site com apenas uma página. A tela expõe a divulgação do local e funciona
 
 💻**Construção**
 
-A construção da tela foi realizada utilizando html, como linguagem de marcação, css usado para estilização e javascript para algumas funções.
+Html
+
+Css
+
+Navegador 
+
+Visual Studio Code
 
 📋**Pré-requisitos**
 
 Navegador 
 
-Visual Studio Code
+IDE de preferência ou editor de texto
 
 ▶️**Instalação**
 
